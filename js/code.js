@@ -66,8 +66,52 @@
 // }
 // document.write(`Sum: ${addition()}`);
 
-let addition = ()=>{
-    document.write(8 + 4);
-}
 
-addition();
+// Arrow Method
+// let addition = ()=>{
+//     document.write(8 + 4);
+// }
+
+// addition();
+
+// Array
+// let students = [
+//     'Gift', 'Asandile',
+//     'Deno', 'Javier',
+//     'Kevin','Hart',
+//     'Dwayne','Johnson'
+// ];
+// let size = students.length;
+// console.log(students);
+// console.log(students[0]);
+// Last element
+// console.log(students[size-1]);
+// Second last element
+// console.log(students[size-2]);
+
+// let Student = [
+//     'Gift','Asandile',
+//     'Deno','Javier',
+//     'Sakhe','Mkhuseli',
+//     'John','Thando',
+//     'Joel'
+// ];
+// console.log(Student);
+// let size = Student.length;
+// console.log(Student[parseInt((size-1)/2)]);
+
+// Comparison Operators
+// let numb1 = 6;
+// let numb2 = 7;
+// console.log(numb1<numb2);
+// console.log(numb1<=numb2);
+// console.log(numb1>=numb2);
+// console.log(numb1!=numb2);
+// console.log(numb1==numb2);
+
+let salary = parseFloat(prompt("Enter your salary: "));
+let age = parseInt(prompt("Enter your age: "));
+let qualified = (salary >=5000) &&
+(age > 17);
+
+document.write(qualified);
