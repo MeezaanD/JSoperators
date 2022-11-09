@@ -109,9 +109,29 @@
 // console.log(numb1!=numb2);
 // console.log(numb1==numb2);
 
-let salary = parseFloat(prompt("Enter your salary: "));
-let age = parseInt(prompt("Enter your age: "));
-let qualified = (salary >=5000) &&
-(age > 17);
+// let salary = parseFloat(prompt("Enter your salary: "));
+// let age = parseInt(prompt("Enter your age: "));
+// let qualified = (salary >=5000) ||
+// (age > 17);
 
-document.write(qualified);
+// document.write(qualified);
+
+// let qualified = (salary >=5000) ||
+// console.log(qualified);
+
+// Relational operator: in
+// let numbers = [9, 7, 4, 3, 15];
+// console.log(7 in numbers);
+
+// Increment and decrement
+// let numb1 = 8;
+// console.log(numb1++);
+// console.log(numb1--);
+
+// Ternary Operator
+// ? :
+let age = 17;
+console.log(
+    age>17 ? "You are qualified" :
+    "You are not qualified");
+
