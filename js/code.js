@@ -130,8 +130,16 @@
 
 // Ternary Operator
 // ? :
-let age = 17;
-console.log(
-    age>17 ? "You are qualified" :
-    "You are not qualified");
+// let age = 17;
+// console.log(
+//     age>17 ? "You are qualified" :
+//     "You are not qualified");
 
+
+// Object
+let person = {
+    name: 'User name',
+    surname: 'User surname'
+}
+let search = 'name';
+console.log(search in person);
